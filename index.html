@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Career Busters - Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="" href="/favicon.ico?" type="image/x-icon">
+</head>
+<body>
+    <header class="home-header" id="top">
+        <nav class="nav" id="navbar">
+            <ul class="nav-list" id="navlist">
+                
+                <li class="nav-item">
+                
+                    <a class="nav-link active" href="/">Home</a>
+                
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="./media">Media</a>
+                
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="./exclusive">Exclusive</a>
+                
+                </li>
+                <li class="nav-item nav-image-item">
+                
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCaJZ4_uYqk4tCAjMw7ZDW7A/featured?sub_confirmation=1" target="_blank">
+                
+                        <img class="nav-img" id="navimg" src="./img/Cool Black Profile Photo.png">
+                
+                    </a>
+                
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="./upcoming/">Upcoming</a>
+                
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="./contact/">Contact</a>
+                
+                </li>
+                <li class="nav-item">
+                
+                    <a class="nav-link" href="./about/">About</a>
+            
+                </li>
+            </ul>
+        </nav>     
+
+        <nav class="mobile-nav" id="mobile-navbar">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCaJZ4_uYqk4tCAjMw7ZDW7A/featured?sub_confirmation=1" target="_blank">
+                
+                <img class="nav-img" src="./img/Cool Black Profile Photo.png">
+            
+            </a>
+
+            <i class="fas fa-bars fa-2x nav-icon" id="menu-btn"></i>
+        
+        </nav>
+
+        <aside class="mobile-sidebar" id="sidebar">
+                <i class="fas fa-times fa-2x close-icon" id="menu-close-icon"></i>
+                <ul class="nav-links">
+                    <li class="nav-item">
+                
+                        <a class="nav-link active" href="./">Home</a>
+                            
+                    </li>
+                    <li class="nav-item">
+                            
+                        <a class="nav-link" href="./media/">Media</a>
+                            
+                    </li>
+                    <li class="nav-item">
+                            
+                        <a class="nav-link" href="./exclusive">Exclusive</a>
+                            
+                    </li>
+                    <li class="nav-item">
+                            
+                        <a class="nav-link" href="./upcoming/">Upcoming</a>
+                            
+                    </li>
+                    <li class="nav-item">
+                            
+                        <a class="nav-link" href="./contact/">Contact</a>
+                            
+                    </li>
+                    <li class="nav-item">
+                            
+                        <a class="nav-link" href="./about/">About</a>
+                        
+                    </li>
+                </ul>
+        </aside>
+
+        <div class="header-content">
+            <div class="left">
+                <h1 class="header-title">Join the Adventure</h1>
+                <p class="header-sub-text">
+                    Busting the Most Common Career Myths, <br> One Adventure at a Time
+                </p>
+                <button class="btn"  onclick="scrollToFirstSection()"> Learn More</button>
+            </div>
+            <div class="right">
+                <img src="./img/Circles.png" alt="Image Unavailable" class="header-img">
+            </div>
+        </div>
+
+        <i class="fas fa-3x fa-angle-double-down header-down" onclick="scrollToFirstSection()"></i>
+
+    </header>
+
+    <section class="what-we-do section navy" id="firstsection">
+        <div class="img-content">
+            <img src="./img/users.png" alt="People Icon" class="section-img people-icon">
+        </div>
+        <div class="content">
+            <h1 class="title">What we do</h1>
+            <p class="desc">Ever wondered what it'd be like to experience every career imaginable? We did... We're not crazy, just ambitious. Join us by watching one adventure at a time (or binge them all at once) The choice is yours.</p>
+            <button class="btn" onclick="window.location = '/media' ">Watch here</button>
+        </div>
+        <a class="fas fa-chevron-down fa-2x arrow" href="#secondsection"></a>
+    </section>
+
+    <section class="exclusive section" id="secondsection">
+        <div class="content">
+            <h1 class="title">Exclusive</h1>
+            <p class="desc">So you love our adventures but you want more... You want to be a part of the most exclusive Career Busters Community. Get access to bonus content, interviews, career insights from professionals and more</p>
+            <button class="btn dark" onclick="window.location = '/exclusive'">Join Here</button>
+        </div>
+        <div class="img-content">
+            <img src="./img/lock.png" alt="Lock Icon" class="section-img lock-symbol">
+        </div>
+        <a class="fas fa-chevron-down fa-2x arrow" href="#thirdsection"></a>
+    </section>
+
+    <section class="contact section navy" id="thirdsection">
+            <div class="img-content">
+                <img src="img/email.png" alt="Email Icon" class="section-img email-icon">
+            </div>
+            <div class="content">
+                <h1 class="title">Work With Us</h1>
+                <p class="desc">Love our vision? Want to work with us? Whether you're a brand or an individual... If you would like to be a part of, or sponsor one of our career adventures, reach out to us here.</p>
+                <button class="btn" onclick="window.location = '/contact' ">Contact Here</button>
+            </div>
+            <a class="fas fa-chevron-down fa-2x arrow" href="#footer"></a>
+    </section>
+
+    <footer class="reg-footer" id="footer">
+            <a class="fas fa-chevron-up arrow shown" href="#top"></a>
+            <div class="social-icons">
+            <a href="https://instagram.com/CareerBusters" class="footer-icon" target="_blank">
+    
+                <i class="fab fa-instagram"></i>
+    
+            </a>
+    
+            <a href="https://twitter.com/CareerBusters" class="footer-icon" target="_blank">
+    
+                <i class="fab fa-twitter"></i>
+    
+            </a>
+    
+            <a href="https://fb.me/CareerBusters" class="footer-icon" target="_blank">
+    
+                <i class="fab fa-facebook"></i>
+    
+            </a>
+    
+            <a href="https://www.youtube.com/channel/UCaJZ4_uYqk4tCAjMw7ZDW7A/featured?sub_confirmation=1" class="footer-icon" target="_blank">
+    
+                <i class="fab fa-youtube"></i>
+    
+            </a>
+        </div>
+    
+        <p class="footer-text">&copy; 2019, Career Busters</p>
+        <p class="coded-text">Coded By <a href="https://www.blakeyeboah.com/" target="_blank">Blake Yeboah</a></p>
+        <a class="affiliate" href="./affiliate/">Affiliate Disclosure</a>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dffdbdc5f7.js" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+    <script src="navbar.js"></script>
+</body>
+</html>
