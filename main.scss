@@ -8,12 +8,12 @@ $navy: #0D1422;
 
 // Dark Gradient
 @mixin darkGradient {
-    background: linear-gradient(90deg, #222 0%, #111 100%);
+    background-image: linear-gradient(90deg, #222 0%, #111 100%);
 }
 
 // Pink Gradient
 @mixin accentGradient {
-    background: linear-gradient(90deg, rgba(174,50,74,1) 0%, rgba(221,105,128,1) 100%);
+    background-image: linear-gradient(90deg, rgba(174,50,74,1) 0%, rgba(221,105,128,1) 100%);
 }
 
 // Responsive Mixins

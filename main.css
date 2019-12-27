@@ -78,8 +78,8 @@ html {
   border-radius: 30px;
   border: 0;
   padding: 5px;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   color: #EEECED;
   text-transform: uppercase;
   letter-spacing: .25em;
@@ -98,8 +98,8 @@ html {
 }
 
 * body .btn.dark {
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
-  background: linear-gradient(90deg, #222 0%, #111 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
+  background-image: linear-gradient(90deg, #222 0%, #111 100%);
 }
 
 * body .btn.dark:hover {
@@ -437,8 +437,8 @@ html {
 }
 
 * body .other-header {
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   height: 50vh;
   position: relative;
   top: 97.5px;
@@ -490,8 +490,8 @@ html {
 }
 
 * body .other-header .arrow {
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
-  background: linear-gradient(90deg, #222 0%, #111 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
+  background-image: linear-gradient(90deg, #222 0%, #111 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -517,8 +517,8 @@ html {
   top: 45%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
-  background: linear-gradient(90deg, #222 0%, #111 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
+  background-image: linear-gradient(90deg, #222 0%, #111 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -601,8 +601,8 @@ html {
   font-family: 'Montserrat', sans-serif;
   padding: 1.25em 0;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -708,13 +708,13 @@ html {
 }
 
 * body .card-section .box-container .flip-box .flip-box-inner .flip-box-front {
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
 }
 
 * body .card-section .box-container .flip-box .flip-box-inner .flip-box-front .icon {
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
-  background: linear-gradient(90deg, #222 0%, #111 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
+  background-image: linear-gradient(90deg, #222 0%, #111 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -739,8 +739,8 @@ html {
 
 * body .card-section .box-container .flip-box .flip-box-inner .flip-box-front .heading {
   letter-spacing: .05em;
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
-  background: linear-gradient(90deg, #222 0%, #111 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
+  background-image: linear-gradient(90deg, #222 0%, #111 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1059,8 +1059,8 @@ html {
 * body .reg-footer .social-icons .footer-icon {
   width: 30px;
   height: 30px;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   border-radius: 5px;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
@@ -1105,8 +1105,8 @@ html {
   letter-spacing: .1em;
   text-transform: capitalize;
   padding: 1.5em 0;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1231,8 +1231,8 @@ html {
 }
 
 * body .get-started .tab-section .headings .tab-header:not(.active):hover {
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1268,8 +1268,8 @@ html {
 
 * body .get-started .tab-section .tab .icon {
   margin: 16px auto;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1334,8 +1334,8 @@ html {
   text-transform: capitalize;
   text-align: center;
   padding: 1.5em 0 .25em 0;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1489,8 +1489,8 @@ html {
 
 * body .section {
   height: 65vh;
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -1885,8 +1885,8 @@ html {
 }
 
 * body .section.navy .content .title {
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1906,8 +1906,8 @@ html {
 }
 
 * body .section.navy .content .btn {
-  background: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
-  background: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ae324a), to(#dd6980));
+  background-image: linear-gradient(90deg, #ae324a 0%, #dd6980 100%);
 }
 
 * body .section.navy .content .btn:hover {
@@ -2305,8 +2305,8 @@ html {
   letter-spacing: .1em;
   text-transform: capitalize;
   padding: .5em 0;
-  background: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
-  background: linear-gradient(90deg, #222 0%, #111 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222), to(#111));
+  background-image: linear-gradient(90deg, #222 0%, #111 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
